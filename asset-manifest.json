@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aviasales-tickets/static/css/main.1f309e4b.chunk.css",
+    "main.js": "/aviasales-tickets/static/js/main.30d1c460.chunk.js",
+    "main.js.map": "/aviasales-tickets/static/js/main.30d1c460.chunk.js.map",
+    "runtime-main.js": "/aviasales-tickets/static/js/runtime-main.b8ff3dac.js",
+    "runtime-main.js.map": "/aviasales-tickets/static/js/runtime-main.b8ff3dac.js.map",
+    "static/js/2.172f0c5a.chunk.js": "/aviasales-tickets/static/js/2.172f0c5a.chunk.js",
+    "static/js/2.172f0c5a.chunk.js.map": "/aviasales-tickets/static/js/2.172f0c5a.chunk.js.map",
+    "static/js/3.4e116a58.chunk.js": "/aviasales-tickets/static/js/3.4e116a58.chunk.js",
+    "static/js/3.4e116a58.chunk.js.map": "/aviasales-tickets/static/js/3.4e116a58.chunk.js.map",
+    "index.html": "/aviasales-tickets/index.html",
+    "static/css/main.1f309e4b.chunk.css.map": "/aviasales-tickets/static/css/main.1f309e4b.chunk.css.map",
+    "static/js/2.172f0c5a.chunk.js.LICENSE.txt": "/aviasales-tickets/static/js/2.172f0c5a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/aviasales-tickets/static/media/waiting.f4ca72b2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8ff3dac.js",
+    "static/js/2.172f0c5a.chunk.js",
+    "static/css/main.1f309e4b.chunk.css",
+    "static/js/main.30d1c460.chunk.js"
+  ]
+}
