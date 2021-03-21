@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aviasales-tickets/static/css/main.1f309e4b.chunk.css",
-    "main.js": "/aviasales-tickets/static/js/main.9cfa13ab.chunk.js",
-    "main.js.map": "/aviasales-tickets/static/js/main.9cfa13ab.chunk.js.map",
+    "main.js": "/aviasales-tickets/static/js/main.38329834.chunk.js",
+    "main.js.map": "/aviasales-tickets/static/js/main.38329834.chunk.js.map",
     "runtime-main.js": "/aviasales-tickets/static/js/runtime-main.b8ff3dac.js",
     "runtime-main.js.map": "/aviasales-tickets/static/js/runtime-main.b8ff3dac.js.map",
     "static/js/2.172f0c5a.chunk.js": "/aviasales-tickets/static/js/2.172f0c5a.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b8ff3dac.js",
     "static/js/2.172f0c5a.chunk.js",
     "static/css/main.1f309e4b.chunk.css",
-    "static/js/main.9cfa13ab.chunk.js"
+    "static/js/main.38329834.chunk.js"
   ]
 }
