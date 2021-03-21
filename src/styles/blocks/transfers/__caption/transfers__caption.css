@@ -1,0 +1,16 @@
+.transfers__caption {
+    margin: 10px 20px 10px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: var(--p-dark);
+}
+
+
+@media screen and (max-width: 630px) {
+    .transfers__caption {
+        grid-column: 1/3;
+    }
+}

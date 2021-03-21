@@ -1,0 +1,11 @@
+.transfers__item {
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    position: relative;
+}
+
+.transfers__item:hover {
+    background-color: var(--select);
+}

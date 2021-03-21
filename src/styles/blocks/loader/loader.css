@@ -1,0 +1,25 @@
+.loader {
+    background-image: url(../../../icons/waiting.svg);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    grid-column: 2;
+    margin: auto;
+    animation: 2s linear 0s infinite forwards rotation;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .loader {
+        grid-column: 1;
+    }
+}

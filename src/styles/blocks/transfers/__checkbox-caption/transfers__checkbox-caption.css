@@ -1,0 +1,21 @@
+.transfers__checkbox-caption {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--p-dark);
+    margin: 0;
+    padding-left: 30px;
+}
+
+.transfers__checkbox-caption::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background-image: url(../../../../icons/checkbx.svg);
+    margin-left: 20px;
+    transition: background-image 0.1s ease-in-out;
+
+}

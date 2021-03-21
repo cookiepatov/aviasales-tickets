@@ -1,0 +1,5 @@
+.card__main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

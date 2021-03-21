@@ -1,0 +1,18 @@
+.sort-options {
+	display: inline-block;
+	overflow: hidden;
+    height: fit-content;
+}
+
+
+/* Checked */
+.sort-options input[type=radio]:checked + label {
+	background-color: var(--p-blue);
+    color: white;
+    border: 1px solid var(--p-blue);
+}
+ 
+/* Hover */
+.sort-options label:hover {
+	background-color: var(--select);
+}

@@ -1,0 +1,9 @@
+.info__title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--s-grey);
+}

@@ -1,0 +1,16 @@
+.button-reset {
+    background-image: url(../../../icons/Logo.svg);
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+    padding: 0;
+    background-position: center;
+}
+
+.button-reset:hover {
+    opacity: 0.8;
+}

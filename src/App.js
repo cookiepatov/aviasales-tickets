@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import TicketsManager from './elements/TicketsManager';
+import './styles/pages/index.css';
+
+const SearchIdUrl='https://front-test.beta.aviasales.ru/search';
+const SearchTicketsUrl='https://front-test.beta.aviasales.ru/tickets?searchId='
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <TicketsManager url={[SearchIdUrl, SearchTicketsUrl]}/>
     </div>
   );
 }
