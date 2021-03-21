@@ -12,9 +12,15 @@ export default class Transfers extends React.Component {
         document.querySelector('.transfers')
         .querySelectorAll('.transfers__checkbox').forEach(checkbox => {
             checkbox.checked&&current.push(+checkbox.value)});
-        this._searchValues = current;
-
-        this.changed(this._searchValues);
+        if(current.length===0) {
+            this._switchOnAllFilter()
+            this._checkState();
+        }
+        else {
+            this._searchValues = current;
+            this.changed(this._searchValues);
+        }
+        
     }
     _changeHandler(e) {
         const value = e.target.parentNode.attributes.data.value;
@@ -26,6 +32,12 @@ export default class Transfers extends React.Component {
             this._swtichOffAllFilter()
         }
         this._checkState();
+    }
+
+    _switchOnAllFilter() {
+        document.querySelector('.transfers')
+        .querySelector('#transfer-all').checked=true;
+
     }
 
     _swtichOffAllFilter() {
